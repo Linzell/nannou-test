@@ -49,7 +49,7 @@ fn view(app: &App, model: &Model, frame: Frame) {
     let draw = app.draw();
 
     // Clear the background to purple.
-    draw.background().color(PLUM);
+    draw.background().color(WHITE);
 
     // Draw a blue ellipse at the x/y coordinates 0.0, 0.0
     draw.ellipse().color(STEELBLUE).x_y(x, y);
